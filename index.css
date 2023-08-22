@@ -1,0 +1,298 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("artworks-rReznawIzS6AxC7Q-C81zrQ-t500x500.jpg");
+  transition: 0.4s;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.78);
+  z-index: -1;
+}
+.loadingpageTime{
+  height: 92.1vh;
+  width: 100vw;
+ position: fixed;
+ top:0px;
+ z-index: 99999;
+  background: #000000ba;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.waitbox{
+  font-size: 16px;
+}
+.waitbox:first-letter{
+  font-size: 19px;
+}
+.box1 {
+  width: 95%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box999 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.box1 > img {
+  height: 35px;
+}
+#editbox {
+  background: linear-gradient(#2150f8, #f821ee);
+  padding: 7px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0.3px black;
+}
+
+.box1 i {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.box2 {
+  margin: 80px auto 0px auto;
+  height: 40%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2 > img {
+  box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+}
+.box44 {
+  height: 10px;
+  width: 75%;
+  background: white;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+}
+.duration {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(#2150f8, #f821ee);
+  border-radius: 10px;
+}
+.sildertime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  font-family: Sans-Serif;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 80px auto 0px auto;
+  font-family: Sans-Serif;
+}
+.box4 {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.box4 > img {
+  width: 13%;
+}
+
+#playbox {
+  width: 17%;
+}
+.menubox {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#2150f8, #f821ee);
+  width: 79vw;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 99999;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
+    inset 0 0 20px rgba(255, 255, 255, 0.3),
+    inset 0 0 30px rgba(255, 255, 255, 0.2);
+  overflow-y: scroll;
+}
+.musicbox {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  font-family: Sans-Serif;
+  margin: 5px auto;
+  width: 97%;
+  height: 15%;
+  font-size: 13px;
+  background: white;
+  padding: 0px 3px 0px 0px;
+  color: black;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
+    inset 0 0 20px rgba(255, 255, 255, 0.3),
+    inset 0 0 30px rgba(255, 255, 255, 0.2);
+  border-radius: 0px 10px 10px 0px;
+}
+.musicbox:hover {
+  color: black;
+  background: #d3d0d0;
+}
+
+@media (min-width: 480px) and (min-height: 853px) {
+  .box44 {
+    height: 14px;
+    width: 80%;
+  }
+  .box2 {
+    margin: 130px auto 0px auto;
+  }
+  .box3 {
+    margin: 130px auto 0px auto;
+  }
+}
+@media (min-width: 411px) and (min-height: 731px) {
+  .box44 {
+    height: 14px;
+    width: 80%;
+  }
+  .box2 {
+    margin: 110px auto 0px auto;
+  }
+  .box3 {
+    margin: 130px auto 0px auto;
+  }
+}
+@media (min-width: 375px) and (min-height: 812px) {
+  .box44 {
+    height: 14px;
+    width: 80%;
+  }
+  .box2 {
+    margin: 140px auto 0px auto;
+  }
+  .box3 {
+    margin: 130px auto 0px auto;
+  }
+}
+.obitointro{
+  position: fixed;
+  top: 37%;
+  left: 100%;
+  height: 60%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+transition: 0.6s;
+font-family: "Poppins", sans-serif;
+z-index: 9999;
+}
+.obitobox{
+  position: fixed;
+  top: 100%;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: white;
+  z-index: 9999;
+background: #000000;
+border-radius: 3%;
+transition: 0.6s;
+font-family: "Poppins", sans-serif;
+box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
+    inset 0 0 20px rgba(255, 255, 255, 0.3),
+    inset 0 0 30px rgba(255, 255, 255, 0.2);
+}
+.obitobox1{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  line-height: 19px;
+  word-spacing: 3px;
+}
+
+.blurbox{
+  position: fixed;
+  top:0px;
+  z-index: 2;
+  height: 92.1vh;
+  width: 100%;
+  background: #000000c9;
+  display: none;
+}
+
+.popupmessagebox{
+  position: fixed;
+  top: 30%;
+  left: 5%;
+  width: 90%;
+  height: 25%;
+  z-index: 222;
+  background: #f134a8;
+  padding: 6px;
+  border-radius: 5px;
+  color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
+    inset 0 0 20px rgba(255, 255, 255, 0.3)
+}
+.popupmessagebox > input{
+  outline: none;
+  width: 88%;
+  padding: 7px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.popupbox10{
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+}
+.popupbox10 > button{
+  border: none;
+  width: 20%;
+  padding: 2%;
+  color: black;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
+    inset 0 0 20px rgba(255, 255, 255, 0.3)
+}
